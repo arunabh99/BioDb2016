@@ -33,11 +33,6 @@ def first(a):
 
     
 print(first(a))
-    
-    
-
-
-
 # In[ ]:
 
 #print(round(1234.56789, 1),round(1234.56789, 2),round(1234.56789, 3))
@@ -57,8 +52,6 @@ print("{0:.2f}".format(round(a,2)))
 print("{0:.3f}".format(round(a,3)))
 
 '1234.56789'.format('%E')
-
-
 
 # In[ ]:
 
@@ -86,12 +79,6 @@ def get_seconds(pairs):
         
 print(get_seconds(pairs))
 
-
-
-
-
-
-
 # In[ ]:
 
 power_levels = {
@@ -100,8 +87,7 @@ power_levels = {
    'Nanditha': 6.1
 }
    
-   
-   
+    
 def biggest_key(power_levels):
    max_val=max(power_levels.values())
    for key in power_levels :
@@ -114,9 +100,6 @@ print(biggest_key(power_levels))
 
 # In[ ]:
 
-
-
-
 def div7(num):
     quoRem = divmod(num,7)
     listofNum = []
@@ -127,10 +110,6 @@ def div7(num):
 
 
 div7(29)
-
-
-
-
 
 # In[ ]:
 
@@ -154,10 +133,6 @@ prod=product(x,y)
 for p in prod:
     print(p)
 
-
-
-
-
 # In[118]:
 
 x = [1, 2, 3, 2, 3, 4, 3, 5]
@@ -165,11 +140,6 @@ x.remove(2)
 
 
 # In[121]:
-
-
-
-
-# In[122]:
 
 x
 
